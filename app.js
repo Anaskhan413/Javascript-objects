@@ -223,10 +223,7 @@
 // var roundOff = Math.round(randomNumber)
 // if(secretNumber === roundOff){
 //     document.write("Congrats You've got it ")
-// }else(
-//     document.write("Good Luck For Next Time")
-// )
-
+/
 
 
 
@@ -241,7 +238,34 @@
 
 // Question #2
 
-// var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-// var date = new Date();
+// var Months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+// var Date = new Date();
 // var month = months[date.getMonth()];
-// document.write("Currentmonth: " + month)
+
+
+
+
+// Question 3
+
+// var Dayss = ["Sun" , "Mon" , "Tue" , "Wed" , "Thu" , "Fri" , "Sat"];
+// var nd = new Date();
+// var day = Dayss[nd.getDay()];
+// document.write("Today is " + Dayss)
+
+// Question #4
+
+
+// var Dayss = ["Sunday" , "Monday" , "Tuesday" , "Wednesday" , "Thursday" , "Friday" , "Saturday"];
+// var nd = new Date();
+// var Dayss = Dayss[nd.getDay()];
+// if(Dayss === "Saturday" || "Sunday"){
+//     document.write("It's Fun Day")
+
+
+// Question 5
+
+// var d = new Date();
+// var days = d.getDate();
+// if(days <=15){
+//     document.write("First Fifteen Days of the month");
+
